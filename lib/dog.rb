@@ -16,7 +16,7 @@ def self.all
 end
 
 def self.print_all
-puts @@all.map{ |x| x.name }
+puts Dog.all.name 
 end
   
 def save
