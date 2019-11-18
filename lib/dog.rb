@@ -16,7 +16,7 @@ def self.all
 end
 
 def self.print_all
-puts Dog.all.find { |d| d.name == name}  
+@@all.map{ |x| x.name }
 end
   
 def save
