@@ -16,7 +16,7 @@ def self.all
 end
 
 def self.print_all
-puts Dog.all.name 
+puts Dog.all.find { |d|  
 end
   
 def save
